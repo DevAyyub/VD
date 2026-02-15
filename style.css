@@ -15,6 +15,10 @@
     padding: 0;
 }
 
+.music-player {
+    display: none;
+}
+
 body {
     background-color: var(--bg);
     color: var(--text-main);

@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Valentine Vault</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;600;700&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <!-- <button class="music-control" id="musicBtn" onclick="toggleMusic()">▶ PLAY SOUNDTRACK</button> -->
@@ -17,17 +21,24 @@
         <span class="gallery-dot"></span>
         <span class="gallery-text">OUR PLACE</span>
     </a>
-    <iframe id="music-player" width="0" height="0" src="https://www.youtube.com/embed/hnbqnPJtIWY?autoplay=1&mute=1&loop=1&playlist=hnbqnPJtIWY" title="Arctic Monkeys - 505" allowfullscreen="" allow="autoplay" style="display: none;"></iframe>
-
+    <audio class="music-player" controls autoplay>
+        <source src="horse.ogg" type="audio/ogg">
+        <source src="../music/arctic_monkey_-_i_wanna_be_yours_(mp3.pm).mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
     <section class="hero">
         <div class="soundwave">
-            <div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div><div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
         </div>
         <h1>14.02</h1>
         <p class="red-text">BELATED VALENTINE'S DAY</p>
 
         <button class="start-btn" id="startBtn" onclick="startExperience()">Start the experience</button>
-        
+
         <div class="countdown-box">
             <div class="dim-text">COUNTDOWN TO OUR 2 YEAR ANNIVERSARY</div>
             <div class="timer" id="countdown">Loading...</div>
@@ -38,9 +49,9 @@
     <div class="container vault-section reveal" id="vault">
         <h2>Why I Love You</h2>
         <p class="dim-text" style="margin-bottom: 30px;">FIND A REASON YOU ARE MY VALENTINE</p>
-        
+
         <button class="vault-btn" onclick="revealReason()">DUYMEYE BAS</button>
-        
+
         <div class="card-display" id="vault-display">
             <p class="dim-text">Vault Locked. Waiting for input...</p>
         </div>
@@ -49,9 +60,9 @@
     <div class="container timeline-section reveal" id="timeline">
         <h2>The Timeline</h2>
         <p class="dim-text" style="margin-bottom: 40px;">1 YEAR, 10 MONTHS OF US</p>
-        
+
         <div class="timeline" id="timeline-container">
-            </div>
+        </div>
     </div>
 
     <section class="footer reveal" id="finale">
@@ -61,4 +72,5 @@
 
     <script src="script.js"></script>
 </body>
+
 </html>
