@@ -90,22 +90,22 @@ const timelineEvents = [
     },
      { 
         date: "OCTOBER 3, 2024", 
-        src: "images/timelineaoct3.png",
+        src: "images/timelineoct3.png",
         text: "Вместе на тандоган" 
     },
      { 
         date: "OCTOBER 24, 2024", 
-        src: "images/timelineaoct24.png",
+        src: "images/timelineoct24.png",
         text: "УСС Заснула на плече" 
     },
     { 
         date: "NOVEMBER 1, 2024", 
-        src: "images/timelineanov1.png",
+        src: "images/timelinenov1.png",
         text: "На дейте ушш как красиво оделись и выглядим" 
     },
      { 
         date: "NOVEMBER 2, 2024", 
-        src: "images/timelineanov2.png",
+        src: "images/timelinenov2.png",
         text: "А тут я уже лежу на плече" 
     },
      { 
@@ -130,12 +130,12 @@ const timelineEvents = [
     },
     { 
         date: "MARCH 28, 2025", 
-        src: "images/timelinemarch28.png",
+        src: "images/timelinemarch28.jpeg",
         text: "Ушш на нее в шлеме сотри милотаа" 
     },
         { 
         date: "JANUARY 6, 2026", 
-        src: "images/timelinejan6.png", 
+        src: "images/timelinejan6.jpeg", 
         text: "Уссс спить улыбаясь" 
     },
     { 
