@@ -379,4 +379,10 @@ h1, h2, h3 {
     .music-control { top: 12px; right: 12px; }
     .gallery-back { top: 12px; right: 12px; }
     /* .footer { font-size : 3.5 rem;} */
+
+    /* Ensure reveal sections don't stay hidden on mobile */
+    .js .reveal {
+        opacity: 1;
+        transform: none;
+    }
 }
