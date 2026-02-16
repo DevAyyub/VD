@@ -4,32 +4,47 @@
 const reasons = [
     {
         title: "Your Eyes",
-        text: "I get lost in them every time. They are my favorite view in any room.",
-        src: ""
+        text: "Как можно не влюбиться в эти глаза?",
+        src: "images/eyes1.jpeg"
+    },
+    {
+        title: "Your Eyes",
+        text: "Еще глаза",
+        src: "images/eyes2.png"
+    },
+    {
+        title: "Your Eyes",
+        text: "ЕЩЕ ГЛАЗАААА",
+        src: "images/eyes3.png"
+    },
+        {
+        title: "Your Lips",
+        text: "Как можно без этих губ ушш всегда умиляюсь",
+        src: "images/cutelips.jpeg"
     },
     {
         title: "Your Smile",
-        text: "Those dimples and that light you give off. I still remember the day you laughed so hard I forgot everything else.",
+        text: "Ушш эти ямочки когда ты улыбаешься",
         src: ""
     },
     {
         title: "Your Scent",
-        text: "It feels like home. It makes every place softer and safer when you're near.",
+        text: "Обожаю твой запах ойдаа",
         src: ""
     },
     {
         title: "Your Voice",
-        text: "The calm that finds me when you speak. It's my favorite sound.",
+        text: "Музыка для моих ушей",
         src: ""
     },
     {
         title: "Your Style",
-        text: "You carry yourself with grace and edge. You make every simple moment look iconic.",
+        text: "Ну да ты всегда у меня стильная красотка прям моя малышка",
         src: ""
     },
     {
         title: "Your Kindness",
-        text: "The way you care for me and others shows how beautiful your heart is.",
+        text: "Усс ты так заботишься обо мне всегда милаха",
         src: ""
     }
 ];
@@ -49,14 +64,89 @@ const timelineEvents = [
         text: "Heh ilk sinifde sekil" 
     },
  { 
-        date: "APRIL 29, 2024", 
+        date: "MAY 7, 2024", 
         src: "images/timelinemay7.png",
         text: "Hehe another one" 
     },
+     { 
+        date: "MAY 13, 2024", 
+        src: "images/timelinemay13.png",
+        text: "Фотка с моими очками" 
+    },
+     { 
+        date: "JULY 3, 2024", 
+        src: "images/timelinejuly3.png",
+        text: "C Араз маркета шли" 
+    },
+     { 
+        date: "AUGUST 14, 2024", 
+        src: "images/timelineaug14.png",
+        text: "Приготовила мне кекс первый раз и в парке кушал" 
+    },
+     { 
+        date: "SEPTEMBER 18, 2024", 
+        src: "images/timelinesep18.jpeg",
+        text: "Летим в Турцию первый раз вместе" 
+    },
+     { 
+        date: "OCTOBER 3, 2024", 
+        src: "images/timelineaoct3.png",
+        text: "Вместе на тандоган" 
+    },
+     { 
+        date: "OCTOBER 24, 2024", 
+        src: "images/timelineaoct24.png",
+        text: "УСС Заснула на плече" 
+    },
     { 
-        date: "FEBRUARY 17, 2026", 
+        date: "NOVEMBER 1, 2024", 
+        src: "images/timelineanov1.png",
+        text: "На дейте ушш как красиво оделись и выглядим" 
+    },
+     { 
+        date: "NOVEMBER 2, 2024", 
+        src: "images/timelineanov2.png",
+        text: "А тут я уже лежу на плече" 
+    },
+     { 
+        date: "DECEMBER 20, 2024", 
+        src: "images/timelinedec20.png",
+        text: "Понравилась наша эта фотка" 
+    },    
+    { 
+        date: "DECEMBER 26, 2024", 
+        src: "images/timelinedec26.png",
+        text: "Брух новый год близок а мы в кофешопе делаем operating systems" 
+    },
+    { 
+        date: "FEBRUARY 3, 2025", 
+        src: "images/timelinefeb3.png",
+        text: "А вот летим обратно в Баку уже первый раз" 
+    },
+    { 
+        date: "FEBRUARY 23, 2025", 
+        src: "images/timelinefeb23.png",
+        text: "И пхпхх летим обратно в турцию через 20 дней" 
+    },
+    { 
+        date: "MARCH 28, 2025", 
+        src: "images/timelinemarch28.png",
+        text: "Ушш на нее в шлеме сотри милотаа" 
+    },
+        { 
+        date: "JANUARY 6, 2026", 
+        src: "images/timelinejan6.png", 
+        text: "Уссс спить улыбаясь" 
+    },
+    { 
+        date: "FEBRUARY 6, 2026", 
+        src: "images/timelinefeb6.png", 
+        text: "Один из недавних дней" 
+    },
+    { 
+        date: "FEBRUARY 7, 2026", 
         src: "images/timelinefeb7.jpeg", 
-        text: "And here we are today. You just crushed your exams, and we're celebrating on our own terms. I'm proud of the woman you are becoming. Here's to the next chapter of us." 
+        text: "ПХхпхп в конце захотел эту фотку добавить" 
     }
 ];
 
