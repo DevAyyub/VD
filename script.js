@@ -161,7 +161,7 @@ timelineEvents.forEach(item => {
     div.className = 'timeline-item';
     div.innerHTML = `
         <div class="t-date">${item.date}</div>
-        <img class="timeline-photo" src="${item.src}" onerror="this.style.display='none'">
+        <img class="timeline-photo" src="${item.src}" alt="${item.date}" loading="lazy" decoding="async" onerror="this.style.display='none'">
         <div class="t-content">
             <p class="timeline-text">${item.text}</p>
         </div>
