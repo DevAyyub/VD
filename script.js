@@ -1,6 +1,8 @@
+document.documentElement.classList.add('js');
+
 /* =========================================
-   1. EDIT YOUR REASONS HERE
-   ========================================= */
+    1. EDIT YOUR REASONS HERE
+    ========================================= */
 const reasons = [
     {
         title: "Your Eyes",
@@ -154,20 +156,22 @@ const timelineEvents = [
    3. RENDER LOGIC (Updated for Images & Paragraphs)
    ========================================= */
 const timelineContainer = document.getElementById('timeline-container');
-timelineContainer.innerHTML = ""; // Clear any default content
+if (timelineContainer) {
+    timelineContainer.innerHTML = ""; // Clear any default content
 
-timelineEvents.forEach(item => {
-    const div = document.createElement('div');
-    div.className = 'timeline-item';
-    div.innerHTML = `
-        <div class="t-date">${item.date}</div>
-        <img class="timeline-photo" src="${item.src}" alt="${item.date}" loading="lazy" decoding="async" onerror="this.style.display='none'">
-        <div class="t-content">
-            <p class="timeline-text">${item.text}</p>
-        </div>
-    `;
-    timelineContainer.appendChild(div);
-});
+    timelineEvents.forEach(item => {
+        const div = document.createElement('div');
+        div.className = 'timeline-item';
+        div.innerHTML = `
+            <div class="t-date">${item.date}</div>
+            <img class="timeline-photo" src="${item.src}" alt="${item.date}" loading="lazy" decoding="async" onerror="this.style.display='none'">
+            <div class="t-content">
+                <p class="timeline-text">${item.text}</p>
+            </div>
+        `;
+        timelineContainer.appendChild(div);
+    });
+}
 
 // --- Randomizer Logic ---
 function revealReason() {
